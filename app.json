@@ -9,7 +9,7 @@
     },
     "STEEMJS_URL": {
       "description": "Steem node URL",
-      "value": "https://anyx.io",
+      "value": "https://api.steemit.com",
       "required": false
     }
   },
