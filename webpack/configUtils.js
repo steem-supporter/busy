@@ -32,7 +32,7 @@ const DEFINE_PLUGIN = new webpack.DefinePlugin({
     process.env.STEEMCONNECT_REDIRECT_URL || 'https://steembrowse.com/callback',
   ),
   'process.env.STEEMCONNECT_HOST': JSON.stringify(
-    process.env.STEEMCONNECT_HOST || 'https://steemclogin.com',
+    process.env.STEEMCONNECT_HOST || 'https://steemlogin.com',
   ),
   'process.env.STEEMJS_URL': JSON.stringify(process.env.STEEMJS_URL || 'https://api.steemit.com'),
   'process.env.SIGNUP_URL': JSON.stringify(
